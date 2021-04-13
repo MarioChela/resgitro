@@ -8,8 +8,8 @@
   client.onMessageArrived = onMessageArrived;
   var options = {
     useSSL: false,
-    userName: "licha_05reyes@outlook.com",
-    password: "Galapagos1001",
+    userName: "mchela.fie@unach.edu.ec",
+    password: "Djmarioo1905",
     onSuccess:onConnect,
     onFailure:doFail
   }
@@ -22,7 +22,7 @@
     // Once a connection has been made, make a subscription and send a message.
     console.log("Conectado...");
   
-    client.subscribe("licha_05reyes@outlook.com/IoT");
+    client.subscribe("mchela.fie@unach.edu.ec/sensores");
   
   
   }
