@@ -44,7 +44,7 @@
     var le=document.getElementById("Sensor");
     var l=document.getElementById("Sensor1");
     console.log("onMessageArrived:"+message.payloadString);
-    variables=(message.payloadString).split(("-"));
+    variables=(message.payloadString).split(("%"));
   }
   function Sens1(){
     var dat=document.getElementById("info");
