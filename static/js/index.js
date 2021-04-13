@@ -9,6 +9,7 @@
   
 
   client = new Paho.MQTT.Client("maqiatto.com", 8883, "web_" + parseInt(Math.random() * 100, 10));
+  var variables="-",informacion;
 // called when a message arrives
   function onMessageArrived(message) {
     var le=document.getElementById("Sensor");
