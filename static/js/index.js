@@ -15,8 +15,8 @@
   client.onMessageArrived = onMessageArrived;
   var options = {
    useSSL: false,
-    userName: "wlara123@outlook.es",
-    password: "tomatitos1",
+    userName: "mchela.fie@unach.edu.ec",
+    password: "Djmarioo1905",
     onSuccess:onConnect,
     onFailure:doFail
   }
@@ -29,9 +29,9 @@
     // Once a connection has been made, make a subscription and send a message.
     console.log("Conectado...");
 	
-    client.subscribe("wlara123@outlook.es/repato2");
+    client.subscribe("mchela.fie@unach.edu.ec/sensores2");
     message = new Paho.MQTT.Message("hola desde la web");
-    message.destinationName = "wlara123@outlook.es/repato";
+    message.destinationName = "mchela.fie@unach.edu.ec/sensores";
     client.send(message);
 	
   }
